@@ -6,6 +6,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=samiyazaki" alt="samiyazaki" /></a> </p>
 
 - 🔭 I'm currently working on [Together-We-Make-Progressive-Web-Applications](https://github.com/samiyazaki/Together-We-Make-Progressive-Web-Applications)
+<img src = "assets\Screenshot 2023-04-01 151916.png">
 
 - 🌱 I'm currently learning **MongoDB, Express, React, Node**
 
