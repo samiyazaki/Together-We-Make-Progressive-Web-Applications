@@ -7,6 +7,8 @@
 
 - 🔭 I'm currently working on [Together-We-Make-Progressive-Web-Applications](https://github.com/samiyazaki/Together-We-Make-Progressive-Web-Applications)
 <img src = "assets\Screenshot 2023-04-01 151916.png">
+This is a project for the Columbia Engineering Bootcamp to present a Progressive Web Application (PWA) where the user can switch between the Heroku deployed application and the local application. The user can also add and delete text from the database to maintain itself so that the user can continue in either form.
+
 
 - 🌱 I'm currently learning **MongoDB, Express, React, Node**
 
