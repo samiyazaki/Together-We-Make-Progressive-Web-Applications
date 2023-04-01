@@ -26,7 +26,7 @@ warmStrategyCache({
 
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
-// TODO: Implement asset caching
+// Cache all assets
 const assetCache = new CacheFirst({
   cacheName: 'asset-cache',
   plugins: [
