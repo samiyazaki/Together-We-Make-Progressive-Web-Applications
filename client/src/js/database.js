@@ -29,7 +29,11 @@ export const putDb = async (content) => {
 export const getDb = async () => {
   console.log('Getting content from the database');
   const contactDb = await openDB('jate', 1);
-  const
-  console.error('getDb not implemented');
-
+  const tx = contactDb.transaction('jate', 'readonly');
+  const store = tx.objectStore('jate');
+  const request = store.getAll();
+  const result = await request;
+  console.log('Content retrieved from the database', result);
+  return result?.[0]?.value;
+};
 initdb();
