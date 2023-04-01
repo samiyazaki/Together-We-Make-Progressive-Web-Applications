@@ -29,7 +29,7 @@ export const putDb = async (content) => {
 export const getDb = async () => {
   console.log('Getting content from the database');
   const contactDb = await openDB('jate', 1);
-  
+  const
   console.error('getDb not implemented');
 
 initdb();
